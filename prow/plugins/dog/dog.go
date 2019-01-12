@@ -55,7 +55,7 @@ func init() {
 func helpProvider(config *plugins.Configuration, enabledRepos []string) (*pluginhelp.PluginHelp, error) {
 	// The Config field is omitted because this plugin is not configurable.
 	pluginHelp := &pluginhelp.PluginHelp{
-		Description: "The dog plugin adds a (famous.)dog image to an issue or PR in response to the `/woof` command.",
+		Description: "The dog plugin adds a dog image to an issue or PR in response to the `/woof` command.",
 	}
 	pluginHelp.AddCommand(pluginhelp.Command{
 		Usage:       "/(woof|bark|this-is-{fine|not-fine|unbearable})",
